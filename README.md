@@ -1,4 +1,4 @@
-# <h1 style="text-align:center">check-to-learn</h1>
+# <center>check-to-learn</center>
 ## ✨ Introduction
 A customizable and efficient learning plan platform 
 ## 📋 Features
