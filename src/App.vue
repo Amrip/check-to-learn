@@ -1,14 +1,11 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-  <div v-if="n === 1" />
-  <div v-else-if="n === 2" />
-  <div v-else-if="n === 3" />
-  <div v-else-if="n === 2" />
-  <div v-else-if="n === 5" />
+    <div v-if="n === 1" />
+    <div v-else-if="n === 2" />
+    <div v-else-if="n === 3" />
+    <div v-else-if="n === 2" />
+    <div v-else-if="n === 5" />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
