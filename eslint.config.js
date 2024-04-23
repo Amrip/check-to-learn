@@ -34,8 +34,7 @@ export default defineFlatConfig([
             sourceType: 'module'
         },
         plugins: {
-            '@stylistic/js': stylisticJs,
-            '@vue': pluginVue
+            '@stylistic/js': stylisticJs
         },
         rules: {
             /* todo eslint */
