@@ -61,7 +61,7 @@
     ],
     "src/*.{js,vue}": [
       "eslint --fix ./src",
-      "stylelint ./src"
+      "stylelint --fix ./src"
     ]
   }
 }

@@ -10,4 +10,8 @@
 .{
   font-size: 20px;
 }
+
+body{
+  background-color: #eee;
+}
 </style>
