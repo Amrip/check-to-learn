@@ -55,7 +55,13 @@
     "vite": "^5.2.0"
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": "npm run lint:fix",
-    "src/*.{js,vue}": "npm run lint:fix"
+    "src/**/*.{js,vue}": [
+      "eslint --fix ./src",
+      "stylelint ./src"
+    ],
+    "src/*.{js,vue}": [
+      "eslint --fix ./src",
+      "stylelint ./src"
+    ]
   }
 }
