@@ -4,7 +4,6 @@ import pluginVue from "eslint-plugin-vue";
 import stylisticJs from '@stylistic/eslint-plugin-js'
 import {defineFlatConfig} from "eslint-define-config"
 import * as parserVue from 'vue-eslint-parser';
-import babelParser from "@babel/eslint-parser";
 /**
  * "off":0
  * "warn":1
@@ -90,7 +89,7 @@ export default defineFlatConfig([
         languageOptions: {
             parser: parserVue,
             parserOptions: {
-                ecmaVersion: 2022,
+                parser: "@babel/eslint-parser",
                 sourceType: 'module',
             },
         },
