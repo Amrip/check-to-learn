@@ -57,13 +57,11 @@
   "lint-staged": {
     "src/**/*.{js,vue}": [
       "eslint --fix ./src",
-      "stylelint ./src",
-      "git add ."
+      "stylelint ./src"
     ],
     "src/*.{js,vue}": [
       "eslint --fix ./src",
-      "stylelint --fix ./src",
-      "git add ."
+      "stylelint --fix ./src"
     ]
   }
 }
