@@ -8,7 +8,7 @@ A customizable and efficient learning plan platform
 
 ## 🔁 dependencies
 
-Front-End: Vue3 + Js + Vite + pinia + Axios + Tailwind + ESlint(V9) + Stylelint
+Front-End: Vue3 + Js + Scss + Vite + pinia + Axios + ESlint(V9) + Stylelint
 
 ## 📋 Features
 
